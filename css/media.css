@@ -1033,6 +1033,10 @@
     height: 50px;
   }
 
+  #map {
+    max-height: 320px;
+  }
+  
   .ymaps-2-1-79-balloon__layout {
     margin-left: 0;
   }

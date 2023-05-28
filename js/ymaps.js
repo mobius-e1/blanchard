@@ -13,7 +13,7 @@ function init() {
         balloonContentBody: 'Художественная галерея Blanchard<br>Шоурум №4<br>Леонтьевский переулок, дом 5/1<br>',
     }, {
         iconLayout: 'default#image',
-        iconImageHref: '../img/mapmark.svg',
+        iconImageHref: '../img/events-768-5.jpg',
         iconImageSize: [20, 20],
         iconImageOffset: [-12, -1],
         hideIconOnBalloonOpen: false,

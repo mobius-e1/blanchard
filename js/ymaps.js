@@ -4,7 +4,7 @@ function init() {
     var myMap = new ymaps.Map("map", {
         center: [55.758463, 37.601079],
         zoom: 14,
-        controls: []
+        // controls: []
     });
 
     var myGeoObjects = [];

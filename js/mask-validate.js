@@ -10,8 +10,6 @@
   });
 
 
-
-  
   validator
     .addField('.contacts__form-name', [
       {

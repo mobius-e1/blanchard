@@ -32,16 +32,16 @@
         spaceBetween: 27,
         allowTouchMove: true,
       },
-      577: {
+      647: {
         slidesPerView: 2,
         slidesPerGroup: 2,
-        spaceBetween: 34,
+        spaceBetween: 42,
         allowTouchMove: true,
       },
       0: {
         slidesPerView: 1,
         slidesPerGroup: 1,
-        spaceBetween: 30,
+        // spaceBetween: 30,
         allowTouchMove: true,
       },
     },

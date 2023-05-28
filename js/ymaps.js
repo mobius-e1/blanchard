@@ -2,7 +2,7 @@ ymaps.ready(init);
 
 function init() {
     var myMap = new ymaps.Map("map", {
-        center: [55.758, 37.601],
+        center: [55.758463, 37.601079],
         zoom: 14,
         controls: []
     });
@@ -27,3 +27,5 @@ function init() {
     myMap.geoObjects.add(clusterer);
     myMap.behaviors.disable('scrollZoom');
 }
+
+// myMap.geoObjects.add(myGeoObject);

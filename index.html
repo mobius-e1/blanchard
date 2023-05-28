@@ -9,23 +9,17 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/choices.css">
   <link rel="stylesheet" href="css/simplebar.css">
-
-
   <link rel="stylesheet" href="css/swiper.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/media.css">
-
+  <script src="js/start.js" defer></script>
   <script src="js/scroll.js" defer></script>
   <script src="js/burger.js" defer></script>
   <script src="js/search.js" defer></script>
   <script src="js/simplebar.min.js" defer></script>
   <script src="js/simplebar.js" defer></script>
- 
- 
-
-
-
   <script src="js/swiper-bundle.min.js" defer></script>
+  <script src="js/swiper-introduction.js" defer></script>
   <script src="js/swiper-gallery.js" defer></script>
   <script src="js/swiper-events.js" defer></script>
   <script src="js/swiper-projects.js" defer></script>
@@ -36,22 +30,11 @@
   <script src="js/popper.min.js" defer></script>
   <script src="js/tippy-bundle.umd.js" defer></script>
   <script src="js/tippy.js" defer></script>
-
   <script src="js/inputmask.min.js" defer></script>
   <script src="js/just-validate.production.min.js" defer></script>
   <script src="js/mask-validate.js" defer></script>
-  <script src="js/start.js" defer></script>
   <script src="js/api-maps.yandex.ru.js" defer></script>
- 
   <script src="js/ymaps.js" defer></script>
-
-  <script src="js/swiper-introduction.js" defer></script>
-
-
-  
-
-
-
 </head>
 
 <body class="body-hide">
@@ -59,18 +42,17 @@
     <div class="header header-wrapper">
       <div class="header__upper">
         <div class="container">
-       
           <div class="header__logo">
             <a href="#" class="header__logo">
               <picture>
-                <source srcset="img/logo-small.png" type="image/png" media="(min-width: 320px) and (max-width: 575px)">
-                <source srcset="img/logo-medium.png" type="image/png" media="(max-width: 576px)">
+                <source srcset="img/logo-small.png" type="image/png" media="(min-width: 320px) and (max-width: 414px)">
+                <source srcset="img/logo-medium.png" type="image/png" media="(max-width: 647px)">
                 <source srcset="img/logo-large.png" type="image/png" media="(max-width: 1024px)">
                 <img src="img/logo-medium.png" alt="Логотип Blanchard" aria-hidden="true">
               </picture>
             </a>
           </div>
-          <div id="header-burger-menu" class="header__burger burger" tabindex="0" role="button" 
+          <div id="header-burger-menu" class="header__burger burger" tabindex="0" role="button"
             aria-controls="header-top-wrapper" aria-expanded="false" aria-label="Меню">
             <span class="burger__line"></span>
             <span class="burger__line"></span>
@@ -431,34 +413,24 @@
   </header>
   <main>
     <h1 class="visually-hidden">Художественная галерея Blanchard</h1>
-
     <section class="introduction">
       <div class="introduction introduction-wrapper">
-
-
         <div class="swiper">
           <div class="swiper introduction__swiper">
-
-
-
             <div class="introduction swiper-wrapper">
               <div class="swiper-slide swiper-slide-1"></div>
               <div class="swiper-slide swiper-slide-2"></div>
               <div class="swiper-slide swiper-slide-3"></div>
             </div>
-           
-
-
             <div class="container">
               <div class="introduction__content">
                 <h2 class="introduction__title">
-                  Прикоснитесь к прекрасному
+                  Прикоснитесь к&nbsp;прекрасному
                 </h2>
                 <p class="introduction__descr">
                   Мы&nbsp;вынуждены отталкиваться от&nbsp;того, что реализация намеченных плановых заданий создаёт
                   предпосылки для новых предложений
                 </p>
-
                 <button class="introduction__btn">
                   <a href="#contacts" class="introduction__link">
                     Подписаться на&nbsp;рассылку
@@ -468,10 +440,7 @@
             </div>
           </div>
         </div>
-
-
       </div>
-
     </section>
     <section class="about" id="about">
       <div class="container">
@@ -496,7 +465,6 @@
     <section class="gallery" id="gallery">
       <div class="container">
         <div class="gallery gallery-wrapper">
-         
           <div class="gallery__content">
             <h2 class="gallery__title section-title">
               Галерея
@@ -556,12 +524,6 @@
               <div class="gallery__swiper-slide swiper-slide" tabindex="0" data-swiper-slide="4"></div>
               <div class="gallery__swiper-slide swiper-slide" tabindex="0" data-swiper-slide="5"></div>
               <div class="gallery__swiper-slide swiper-slide" tabindex="0" data-swiper-slide="6"></div>
-              <div class="gallery__swiper-slide swiper-slide" tabindex="0" data-swiper-slide="7"></div>
-              <div class="gallery__swiper-slide swiper-slide" tabindex="0" data-swiper-slide="8"></div>
-              <div class="gallery__swiper-slide swiper-slide" tabindex="0" data-swiper-slide="9"></div>
-              <div class="gallery__swiper-slide swiper-slide" tabindex="0" data-swiper-slide="10"></div>
-              <div class="gallery__swiper-slide swiper-slide" tabindex="0" data-swiper-slide="11"></div>
-              <div class="gallery__swiper-slide swiper-slide" tabindex="0" data-swiper-slide="12"></div>
             </div>
           </div>
           <div class="gallery__modal">
@@ -632,6 +594,12 @@
                     подсовывала&nbsp;&mdash; не&nbsp;видит. Он, правда, по-русски читать не&nbsp;умел. Так
                     и&nbsp;не&nbsp;познакомились.
                   </p>
+                  <p class="gallery__modal-wrapper-text-descr">
+                    Другой раз Пушкин сидит у&nbsp;себя и&nbsp;думает: &laquo;Я&nbsp;гений, и&nbsp;ладно. Гоголь тоже
+                    гений.
+                    Но&nbsp;ведь и&nbsp;Толстой гений, и&nbsp;Достоевский, царствие ему небесное, гений. Когда&nbsp;же
+                    это кончится?&raquo; Тут всё и&nbsp;кончилось.
+                  </p>
                 </div>
               </div>
             </div>
@@ -650,11 +618,9 @@
                     1916
                   </span>
                   <p class="gallery__modal-wrapper-text-descr">
-                    Пушкин часто бывал у&nbsp;Вяземского, подолгу сидел на&nbsp;окне. Всё видел и&nbsp;всё знал.
-                    Он&nbsp;знал, что Лермонтов любит его жену. Поэтому он&nbsp;считал не&nbsp;вполне уместным передать
-                    ему лиру. Думал Тютчеву послать за&nbsp;границу&nbsp;&mdash; не&nbsp;пустили, сказали,
-                    не&nbsp;подлежит, имеет художественную ценность. А&nbsp;Некрасов ему как человек не&nbsp;нравился.
-                    Вздохнул и&nbsp;оставил лиру у&nbsp;себя.
+                    Лев Толстой очень любил детей. Бывало, приведёт в&nbsp;кабинет штук шесть, всех оделяет.
+                    И&nbsp;надо&nbsp;же: вечно Герцену не&nbsp;везло&nbsp;&mdash; то&nbsp;вшивый достанется,
+                    то&nbsp;кусачий. А&nbsp;попробуй поморщиться&nbsp;&mdash; хватит костылем.
                   </p>
                 </div>
               </div>
@@ -665,13 +631,13 @@
               <div class="gallery__modal-wrapper" data-simplebar>
                 <div class="gallery__modal-wrapper-text">
                   <h3 class="gallery__modal-wrapper-text-title">
-                    Иван Клюн
+                    Казимир Малевич
                   </h3>
                   <span class="gallery__modal-wrapper-text-subtitle">
-                    &laquo;Супрематизм&raquo;
+                    &laquo;Крестьянки с вёдрами&raquo;
                   </span>
                   <span class="gallery__modal-wrapper-text-date">
-                    1916
+                    1912&ndash;1913
                   </span>
                   <p class="gallery__modal-wrapper-text-descr">
                     Однажды во&nbsp;время обеда Софья Андреевна подала на&nbsp;стол блюдо пышных, горячих, ароматных
@@ -697,152 +663,16 @@
                     1916
                   </span>
                   <p class="gallery__modal-wrapper-text-descr">
-                    Лев Толстой очень любил детей. Бывало, приведёт в&nbsp;кабинет штук шесть, всех оделяет.
-                    И&nbsp;надо&nbsp;же: вечно Герцену не&nbsp;везло&nbsp;&mdash; то&nbsp;вшивый достанется,
-                    то&nbsp;кусачий. А&nbsp;попробуй поморщиться&nbsp;&mdash; хватит костылем.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="gallery__modal-item" data-swiper-modal="7">
-              <button class="gallery__modal-btn" type="button"></button>
-              <div class="gallery__modal-picture"></div>
-              <div class="gallery__modal-wrapper" data-simplebar>
-                <div class="gallery__modal-wrapper-text">
-                  <h3 class="gallery__modal-wrapper-text-title">
-                    Эдуард Мане
-                  </h3>
-                  <span class="gallery__modal-wrapper-text-subtitle">
-                    &laquo;Портрет господина Пертюазе, охотника на&nbsp;львов&raquo;
-                  </span>
-                  <span class="gallery__modal-wrapper-text-date">
-                    1881
-                  </span>
-                  <p class="gallery__modal-wrapper-text-descr">
-                    Лев Толстой очень любил детей, а&nbsp;взрослых терпеть не&nbsp;мог, особенно Герцена. Как увидит,
-                    так и&nbsp;бросается с&nbsp;костылем и&nbsp;всё в&nbsp;глаз норовит, в&nbsp;глаз. А&nbsp;тот делает
-                    вид, что не&nbsp;замечает. Го- ворит: &laquo;Ох, Толстой, ох, Толстой...&raquo;
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="gallery__modal-item" data-swiper-modal="8">
-              <button class="gallery__modal-btn" type="button"></button>
-              <div class="gallery__modal-picture"></div>
-              <div class="gallery__modal-wrapper" data-simplebar>
-                <div class="gallery__modal-wrapper-text">
-                  <h3 class="gallery__modal-wrapper-text-title">
-                    Берта Моризо
-                  </h3>
-                  <span class="gallery__modal-wrapper-text-subtitle">
-                    &laquo;Швея&raquo;
-                  </span>
-                  <span class="gallery__modal-wrapper-text-date">
-                    1889
-                  </span>
-                  <p class="gallery__modal-wrapper-text-descr">
-                    Пушкин шел по&nbsp;Тверскому бульвару и&nbsp;встретил красивую даму. Подмигнул&nbsp;ей, а&nbsp;она
-                    как захохочет: &laquo;Не&nbsp;обманывайте,&nbsp;&mdash; говорит,&nbsp;&mdash; Николай Васильевич,
-                    лучше отдайте три рубля, что давеча в&nbsp;буриме проиграли&raquo;. Пушкин сразу догадался,
-                    в&nbsp;чём дело. &laquo;Не&nbsp;отдам,&nbsp;&mdash; говорит,&nbsp;&mdash; дура&raquo;. Показал язык
-                    и&nbsp;убежал. Что потом Гоголю было...
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="gallery__modal-item" data-swiper-modal="9">
-              <button class="gallery__modal-btn" type="button"></button>
-              <div class="gallery__modal-picture"></div>
-              <div class="gallery__modal-wrapper" data-simplebar>
-                <div class="gallery__modal-wrapper-text">
-                  <h3 class="gallery__modal-wrapper-text-title">
-                    Эдуард Мане
-                  </h3>
-                  <span class="gallery__modal-wrapper-text-subtitle">
-                    &laquo;Мальчик с&nbsp;подносом&raquo;
-                  </span>
-                  <span class="gallery__modal-wrapper-text-date">
-                    Дата неизвестна
-                  </span>
-                  <p class="gallery__modal-wrapper-text-descr">
-                    Тургенев хотел стать храбрым как Лермонтов и&nbsp;пошел покупать саблю. Пушкин проходил мимо
-                    магазина и&nbsp;увидел его в&nbsp;окно. Взял и&nbsp;закричал нарочно: &laquo;Смотри-ка, Гоголь
-                    (а&nbsp;никакого Гоголя с&nbsp;ним не&nbsp;было), смотри, смотри-ка, Тургенев саблю покупает, давай
-                    мы&nbsp;с&nbsp;тобой ружье купим&raquo;. Тургенев испугался и&nbsp;в&nbsp;ту&nbsp;же ночь уехал
-                    в&nbsp;Баден-Баден.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="gallery__modal-item" data-swiper-modal="10">
-              <button class="gallery__modal-btn" type="button"></button>
-              <div class="gallery__modal-picture"></div>
-              <div class="gallery__modal-wrapper" data-simplebar>
-                <div class="gallery__modal-wrapper-text">
-                  <h3 class="gallery__modal-wrapper-text-title">
-                    Барбара Хепуорт
-                  </h3>
-                  <span class="gallery__modal-wrapper-text-subtitle">
-                    &laquo;Овальная скульптура №2&raquo;
-                  </span>
-                  <span class="gallery__modal-wrapper-text-date">
-                    1943
-                  </span>
-                  <p class="gallery__modal-wrapper-text-descr">
-                    Лев Толстой очень любил детей и&nbsp;писал про них стихи. Стихи эти списывал в&nbsp;отдельную
-                    тетрадку. Однажды после чаю подаёт тетрадь жене: &laquo;Гляньте, Софи, правда, лучше
-                    Пушкина?&raquo;&nbsp;&mdash; а&nbsp;сам сзади костыль держит. Она прочла и&nbsp;говорит: &laquo;Нет,
-                    Левушка, гораздо хуже. А&nbsp;чьё это?&raquo; Тут он&nbsp;её&nbsp;по&nbsp;башке&nbsp;&mdash; трах!
-                    С&nbsp;тех пор он всегда полагался на&nbsp;её&nbsp;литературный вкус.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="gallery__modal-item" data-swiper-modal="11">
-              <button class="gallery__modal-btn" type="button"></button>
-              <div class="gallery__modal-picture"></div>
-              <div class="gallery__modal-wrapper" data-simplebar>
-                <div class="gallery__modal-wrapper-text">
-                  <h3 class="gallery__modal-wrapper-text-title">
-                    Жак Липшиц
-                  </h3>
-                  <span class="gallery__modal-wrapper-text-subtitle">
-                    &laquo;Полусидящая фигура&raquo;
-                  </span>
-                  <span class="gallery__modal-wrapper-text-date">
-                    1915
-                  </span>
-                  <p class="gallery__modal-wrapper-text-descr">
-                    Однажды Гоголю подарили канделябр. Он&nbsp;сразу нацепил на&nbsp;него бакенбарды и&nbsp;стал
-                    дразниться: &laquo;Эх&nbsp;ты, лира недоделанная!&raquo;
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="gallery__modal-item" data-swiper-modal="12">
-              <button class="gallery__modal-btn" type="button"></button>
-              <div class="gallery__modal-picture"></div>
-              <div class="gallery__modal-wrapper" data-simplebar>
-                <div class="gallery__modal-wrapper-text">
-                  <h3 class="gallery__modal-wrapper-text-title">
-                    Иван Табуреткин
-                  </h3>
-                  <span class="gallery__modal-wrapper-text-subtitle">
-                    &laquo;Штуковина&raquo;
-                  </span>
-                  <span class="gallery__modal-wrapper-text-date">
-                    2023
-                  </span>
-                  <p class="gallery__modal-wrapper-text-descr">
-                    Пушкин сидит у&nbsp;себя и&nbsp;думает: &laquo;Я&nbsp;гений, и&nbsp;ладно. Гоголь тоже гений.
-                    Но&nbsp;ведь и&nbsp;Толстой гений, и&nbsp;Достоевский, царствие ему небесное, гений. Когда&nbsp;же
-                    это кончится?&raquo; Тут всё и&nbsp;кончилось.
+                    Пушкин часто бывал у&nbsp;Вяземского, подолгу сидел на&nbsp;окне. Всё видел и&nbsp;всё знал.
+                    Он&nbsp;знал, что Лермонтов любит его жену. Поэтому он&nbsp;считал не&nbsp;вполне уместным передать
+                    ему лиру. Думал Тютчеву послать за&nbsp;границу&nbsp;&mdash; не&nbsp;пустили, сказали,
+                    не&nbsp;подлежит, имеет художественную ценность. А&nbsp;Некрасов ему как человек не&nbsp;нравился.
+                    Вздохнул и&nbsp;оставил лиру у&nbsp;себя.
                   </p>
                 </div>
               </div>
             </div>
           </div>
-         
         </div>
       </div>
     </section>
@@ -863,7 +693,7 @@
             <div class="catalog__accordion">
               <div class="ac catalog__accordion-item">
                 <div class="catalog__accordion-header ac-trigger" tabindex="0">
-                  <span>C 1400 по 1499 гг</span>
+                  <span>C 1400 по 1499 гг.</span>
                   <div class="catalog__accordion-btn">
                     <svg viewbox="0 0 18 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M17.3333 1.33334L9 9.66667L0.666664 1.33334"></path>
@@ -950,7 +780,7 @@
               </div>
               <div class="ac catalog__accordion-item">
                 <div class="catalog__accordion-header ac-trigger" tabindex="0">
-                  <span>C 1500 по 1599 гг</span>
+                  <span>C 1500 по 1599 гг.</span>
                   <div class="catalog__accordion-btn">
                     <svg viewbox="0 0 18 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M17.3333 1.33334L9 9.66667L0.666664 1.33334"></path>
@@ -978,7 +808,7 @@
               </div>
               <div class="ac catalog__accordion-item">
                 <div class="catalog__accordion-header ac-trigger" tabindex="0">
-                  <span>C 1600 по 1699 гг</span>
+                  <span>C 1600 по 1699 гг.</span>
                   <div class="catalog__accordion-btn">
                     <svg viewbox="0 0 18 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M17.3333 1.33334L9 9.66667L0.666664 1.33334"></path>
@@ -1006,7 +836,7 @@
               </div>
               <div class="ac catalog__accordion-item">
                 <div class="catalog__accordion-header ac-trigger" tabindex="0">
-                  <span>C 1700 по 1799 гг</span>
+                  <span>C 1700 по 1799 гг.</span>
                   <div class="catalog__accordion-btn">
                     <svg viewbox="0 0 18 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M17.3333 1.33334L9 9.66667L0.666664 1.33334"></path>
@@ -1034,7 +864,7 @@
               </div>
               <div class="ac catalog__accordion-item">
                 <div class="catalog__accordion-header ac-trigger" tabindex="0">
-                  <span>C 1800 по 1899 гг</span>
+                  <span>C 1800 по 1899 гг.</span>
                   <div class="catalog__accordion-btn">
                     <svg viewbox="0 0 18 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M17.3333 1.33334L9 9.66667L0.666664 1.33334"></path>
@@ -1062,7 +892,7 @@
               </div>
               <div class="ac catalog__accordion-item">
                 <div class="catalog__accordion-header ac-trigger" tabindex="0">
-                  <span>C 1900 по 1999 гг</span>
+                  <span>C 1900 по 1999 гг.</span>
                   <div class="catalog__accordion-btn">
                     <svg viewbox="0 0 18 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M17.3333 1.33334L9 9.66667L0.666664 1.33334"></path>
@@ -1090,7 +920,7 @@
               </div>
               <div class="ac catalog__accordion-item">
                 <div class="catalog__accordion-header ac-trigger" tabindex="0">
-                  <span>C 2000 г</span>
+                  <span>C 2000 г.</span>
                   <div class="catalog__accordion-btn">
                     <svg viewbox="0 0 18 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M17.3333 1.33334L9 9.66667L0.666664 1.33334"></path>
@@ -1120,10 +950,11 @@
             <div class="catalog__content-wrapper">
               <article class="catalog__content catalog__content--active" data-catalog-content="Доменико Гирландайо">
                 <picture class="catalog__content-img">
-                  <source srcset="img/catalog-320-ghirlandaio.jpg" media="(min-width: 320px) and (max-width: 575px)">
-                  <source srcset="img/catalog-768-ghirlandaio.jpg" media="(max-width: 576px)">
+                  <source srcset="img/catalog-320-ghirlandaio.jpg" media="(min-width: 320px) and (max-width: 480px)">
+                  <source srcset="img/catalog-768-ghirlandaio.jpg" media="(max-width: 768px)">
                   <source srcset="img/catalog-1024-ghirlandaio.jpg" media="(max-width: 1024px)">
-                  <img src="img/catalog-1920-ghirlandaio.jpg" alt="Доменико Гирландайо. Автопортрет" title="Доменико Гирландайо. Автопортрет">
+                  <img src="img/catalog-1920-ghirlandaio.jpg" alt="Доменико Гирландайо. Автопортрет"
+                    title="Доменико Гирландайо. Автопортрет">
                 </picture>
                 <h3 class="catalog__content-name">
                   Доменико Гирландайо
@@ -1141,10 +972,12 @@
               </article>
               <article class="catalog__content" data-catalog-content="Бенедетто ди Биндо">
                 <picture class="catalog__content-img">
-                  <source srcset="img/catalog-320-dibingo.jpg" media="(min-width: 320px) and (max-width: 575px)">
-                  <source srcset="img/catalog-768-dibingo.jpg" media="(max-width: 576px)">
+                  <source srcset="img/catalog-320-dibingo.jpg" media="(min-width: 320px) and (max-width: 480px)">
+                  <source srcset="img/catalog-768-dibingo.jpg" media="(max-width: 768px)">
                   <source srcset="img/catalog-1024-dibingo.jpg" media="(max-width: 1024px)">
-                  <img src="img/catalog-1920-dibingo.jpg" alt="Бенедетто ди Биндо. Диптих «Мадонна Смирение и святой Иероним, переводящий Eвангелие от Иоанна»" title="Бенедетто ди Биндо. Диптих «Мадонна Смирение и святой Иероним, переводящий Eвангелие от Иоанна»">
+                  <img src="img/catalog-1920-dibingo.jpg"
+                    alt="Бенедетто ди Биндо. Диптих «Мадонна Смирение и святой Иероним, переводящий Eвангелие от Иоанна»"
+                    title="Бенедетто ди Биндо. Диптих «Мадонна Смирение и святой Иероним, переводящий Eвангелие от Иоанна»">
                 </picture>
                 <h3 class="catalog__content-name">
                   Бенедетто ди Биндо
@@ -1153,17 +986,23 @@
                   ок. 1380&ndash;1385&nbsp;&mdash; 19&nbsp;сентября 1417
                 </span>
                 <p class="catalog__content-text">
-                  Бенедетто ди&nbsp;Биндо остался в&nbsp;истории искусства как сиенский художник, так сказать, &laquo;второго ряда&raquo;, несмотря на&nbsp;то, что за&nbsp;свою короткую жизнь он&nbsp;выполнил ряд весьма престижных заказов, включая работы в&nbsp;Сиенском соборе (работы в&nbsp;главном соборе республики второстепенным художникам не&nbsp;поручались). Обучение он&nbsp;прошёл у&nbsp;Таддео ди&nbsp;Бартоло, крупного сиенского мастера поздней готики, в&nbsp;боттеге которого Бенедетто трудился вместе с&nbsp;Грегорио ди&nbsp;Чекко. Наибольшее влияние на&nbsp;его творчество оказали работы Симоне Мартини, в&nbsp;частности в&nbsp;выборе колорита, а&nbsp;тонко проработанные лица его персонажей напоминают произведения Джованни да&nbsp;Милано.
+                  Бенедетто ди&nbsp;Биндо остался в&nbsp;истории искусства как сиенский художник, так сказать,
+                  &laquo;второго ряда&raquo;, несмотря на&nbsp;то, что за&nbsp;свою короткую жизнь он&nbsp;выполнил ряд
+                  весьма престижных заказов, включая работы в&nbsp;Сиенском соборе (работы в&nbsp;главном соборе
+                  республики второстепенным художникам не&nbsp;поручались). Обучение он&nbsp;прошёл у&nbsp;Таддео
+                  ди&nbsp;Бартоло, крупного сиенского мастера поздней готики, в&nbsp;боттеге которого Бенедетто трудился
+                  вместе с&nbsp;Грегорио ди&nbsp;Чекко. Наибольшее влияние на&nbsp;его творчество оказали работы Симоне
+                  Мартини, в&nbsp;частности в&nbsp;выборе колорита, а&nbsp;тонко проработанные лица его персонажей
+                  напоминают произведения Джованни да&nbsp;Милано.
                 </p>
               </article>
-
-
               <article class="catalog__content" data-catalog-content="Бергоньоне, Амброджо">
                 <picture class="catalog__content-img">
-                  <source srcset="img/catalog-320-bergognone.jpg" media="(min-width: 320px) and (max-width: 575px)">
-                  <source srcset="img/catalog-768-bergognone.jpg" media="(max-width: 576px)">
+                  <source srcset="img/catalog-320-bergognone.jpg" media="(min-width: 320px) and (max-width: 480px)">
+                  <source srcset="img/catalog-768-bergognone.jpg" media="(max-width: 768px)">
                   <source srcset="img/catalog-1024-bergognone.jpg" media="(max-width: 1024px)">
-                  <img src="img/catalog-1920-bergognone.jpg" alt="Амброджо Бергоньоне. «Мадонна с младенцем»" title="Амброджо Бергоньоне. «Мадонна с младенцем»">
+                  <img src="img/catalog-1920-bergognone.jpg" alt="Амброджо Бергоньоне. «Мадонна с младенцем»"
+                    title="Амброджо Бергоньоне. «Мадонна с младенцем»">
                 </picture>
                 <h3 class="catalog__content-name">
                   Бергоньоне, Амброджо
@@ -1172,18 +1011,25 @@
                   1453&nbsp;&mdash; 1523
                 </span>
                 <p class="catalog__content-text">
-                  Прозвище говорит о&nbsp;его тяготении к&nbsp;бургундской школе, по&nbsp;манере ему близок Винченцо Фоппа. Испытал влияние Леонардо да&nbsp;Винчи. Наиболее известен работами 1486&ndash;1494&nbsp;в монастырской обители картезианцев Чертоза ди&nbsp;Павия. Позднее работал в&nbsp;Милане в&nbsp;базилике Сант-Эусторджо и&nbsp;церкви Сан-Сатиро, после 1497&nbsp;&mdash; в&nbsp;Лоди, в&nbsp;1512&nbsp;&mdash; в&nbsp;Бергамо, незадолго до&nbsp;смерти&nbsp;&mdash; снова в&nbsp;Милане, в&nbsp;базилике Сан-Симпличано. Его завещание датировано 4&nbsp;апреля 1523, в&nbsp;том&nbsp;же году он&nbsp;умер. Одним из&nbsp;его учеников считают Бернардино Луини. Работы Бергоньоне представлены в&nbsp;музеях Бергамо, Милана (пинакотека Брера, музей Польди-Пеццоли), Турина, Парижа, Лондона, Нью-Йорка и&nbsp;др., одно из&nbsp;его полотен (Иаков Зеведеев, ок.&nbsp;1500) находится в&nbsp;Эрмитаже.
+                  Прозвище говорит о&nbsp;его тяготении к&nbsp;бургундской школе, по&nbsp;манере ему близок Винченцо
+                  Фоппа. Испытал влияние Леонардо да&nbsp;Винчи. Наиболее известен работами 1486&ndash;1494&nbsp;в
+                  монастырской обители картезианцев Чертоза ди&nbsp;Павия. Позднее работал в&nbsp;Милане в&nbsp;базилике
+                  Сант-Эусторджо и&nbsp;церкви Сан-Сатиро, после 1497&nbsp;&mdash; в&nbsp;Лоди, в&nbsp;1512&nbsp;&mdash;
+                  в&nbsp;Бергамо, незадолго до&nbsp;смерти&nbsp;&mdash; снова в&nbsp;Милане, в&nbsp;базилике
+                  Сан-Симпличано. Его завещание датировано 4&nbsp;апреля 1523, в&nbsp;том&nbsp;же году он&nbsp;умер.
+                  Одним из&nbsp;его учеников считают Бернардино Луини. Работы Бергоньоне представлены в&nbsp;музеях
+                  Бергамо, Милана (пинакотека Брера, музей Польди-Пеццоли), Турина, Парижа, Лондона, Нью-Йорка
+                  и&nbsp;др., одно из&nbsp;его полотен (Иаков Зеведеев, ок.&nbsp;1500) находится в&nbsp;Эрмитаже.
                 </p>
               </article>
-
-
-
               <article class="catalog__content" data-catalog-content="Биссоло, Франческо">
                 <picture class="catalog__content-img">
-                  <source srcset="img/catalog-320-bissolo.jpg" media="(min-width: 320px) and (max-width: 575px)">
-                  <source srcset="img/catalog-768-bissolo.jpg" media="(max-width: 576px)">
+                  <source srcset="img/catalog-320-bissolo.jpg" media="(min-width: 320px) and (max-width: 480px)">
+                  <source srcset="img/catalog-768-bissolo.jpg" media="(max-width: 768px)">
                   <source srcset="img/catalog-1024-bissolo.jpg" media="(max-width: 1024px)">
-                  <img src="img/catalog-1920-bissolo.jpg" alt="Франческо Биссоло. Мистическое обручение Святой Екатерины Александрийской" title="Франческо Биссоло. Мистическое обручение Святой Екатерины Александрийской">
+                  <img src="img/catalog-1920-bissolo.jpg"
+                    alt="Франческо Биссоло. «Мистическое обручение Святой Екатерины Александрийской"
+                    title="Франческо Биссоло. «Мистическое обручение Святой Екатерины Александрийской»">
                 </picture>
                 <h3 class="catalog__content-name">
                   Биссоло, Франческо
@@ -1192,19 +1038,25 @@
                   1470&nbsp;&mdash; 2&nbsp;апреля 1554
                 </span>
                 <p class="catalog__content-text">
-                  Сын художника. Ученик Джованни Беллини. С&nbsp;1490 переехал в&nbsp;мастерскую Беллини. С&nbsp;1492 по&nbsp;1530 год работал в&nbsp;Венеции. Помогал учителю в&nbsp;работе над украшением Большого зала Совета Дворца дожей. Принимал участие в&nbsp;создании украшений Церкви Иль Реденторе в&nbsp;Венеции. Работы художника хранятся ныне во&nbsp;многих музеях мира. В&nbsp;Санкт-Петербургском Эрмитаже находится его картина &laquo;Богоматерь с&nbsp;Младенцем Христом&raquo;. В&nbsp;Британской Национальной галерее&nbsp;&mdash; &laquo;Мадонна с&nbsp;Младенцем со&nbsp;святыми и&nbsp;донатором&raquo;. Ряд его полотен находится в&nbsp;музеях Варшавы, Лос-Анджелеса (Музей Нортона Саймона и&nbsp;Los Angeles County Museum of&nbsp;Art), Дэйтоновском институте искусств (штат Огайо, США) и&nbsp;др.
+                  Сын художника. Ученик Джованни Беллини. С&nbsp;1490 переехал в&nbsp;мастерскую Беллини. С&nbsp;1492
+                  по&nbsp;1530 год работал в&nbsp;Венеции. Помогал учителю в&nbsp;работе над украшением Большого зала
+                  Совета Дворца дожей. Принимал участие в&nbsp;создании украшений Церкви Иль Реденторе в&nbsp;Венеции.
+                  Работы художника хранятся ныне во&nbsp;многих музеях мира. В&nbsp;Санкт-Петербургском Эрмитаже
+                  находится его картина &laquo;Богоматерь с&nbsp;Младенцем Христом&raquo;. В&nbsp;Британской
+                  Национальной галерее&nbsp;&mdash; &laquo;Мадонна с&nbsp;Младенцем со&nbsp;святыми
+                  и&nbsp;донатором&raquo;. Ряд его полотен находится в&nbsp;музеях Варшавы, Лос-Анджелеса (Музей Нортона
+                  Саймона и&nbsp;Los Angeles County Museum of&nbsp;Art), Дэйтоновском институте искусств (штат Огайо,
+                  США) и&nbsp;др.
                 </p>
               </article>
-              
               <div class="catalog__content catalog-empty" data-catalog-content="empty">
                 <div class="catalog__content-img">
                   <picture>
-                    <source srcset="img/catalog-320-empty.jpg" media="(min-width: 320px) and (max-width: 575px)">
-                    <source srcset="img/catalog-768-empty.jpg" media="(max-width: 576px)">
+                    <source srcset="img/catalog-320-empty.jpg" media="(min-width: 320px) and (max-width: 480px)">
+                    <source srcset="img/catalog-768-empty.jpg" media="(max-width: 768px)">
                     <source srcset="img/catalog-1024-empty.jpg" media="(max-width: 1024px)">
                     <img src="img/catalog-1920-empty.jpg" alt="Х — Художник">
                   </picture>
-                 
                 </div>
                 <h3 class="catalog__content-name">
                   Что мы о нём знаем?
@@ -1241,8 +1093,8 @@
                 <div class="events__item swiper-slide">
                   <article class="events__article event-article">
                     <picture class="event-article__img">
-                      <source srcset="img/events-320-1.jpg" media="(min-width: 320px) and (max-width: 575px)">
-                      <source srcset="img/events-576-1.jpg" media="(max-width: 576px)">
+                      <source srcset="img/events-320-1.jpg" media="(min-width: 320px) and (max-width: 480px)">
+                      <source srcset="img/events-647-1.jpg" media="(max-width: 647px)">
                       <source srcset="img/events-768-1.jpg" media="(max-width: 768px)">
                       <source srcset="img/events-1024-1.jpg" media="(max-width: 1024px)">
                       <img src="img/events-1920-1.jpg" alt="Резьба по дереву стамеской">
@@ -1268,25 +1120,24 @@
                 <div class="events__item swiper-slide">
                   <article class="events__article event-article">
                     <picture class="event-article__img">
-                      <source srcset="img/events-320-2.jpg" media="(min-width: 320px) and (max-width: 575px)">
-                      <source srcset="img/events-576-2.jpg" media="(max-width: 576px)">
+                      <source srcset="img/events-320-2.jpg" media="(min-width: 320px) and (max-width: 480px)">
+                      <source srcset="img/events-647-2.jpg" media="(max-width: 647px)">
                       <source srcset="img/events-768-2.jpg" media="(max-width: 768px)">
                       <source srcset="img/events-1024-2.jpg" media="(max-width: 1024px)">
                       <img src="img/events-1920-2.jpg" alt="Фотография: двое мужчин">
                     </picture>
                     <div class="event-article__text">
                       <div class="event-article__info">
-                        <abbr title="Московский музей современного искусства">ММОМА</abbr><time datetime="2022-03-24 19:00">24 марта 19:00</time>
+                        <abbr title="Московский музей современного искусства">ММОМА</abbr><time
+                          datetime="2022-03-24 19:00">24 марта 19:00</time>
                       </div>
-    
                       <h3 class="event-article__title">
                         &laquo;Открытая дискуссия&raquo;. Дмитрий Петров и&nbsp;Сергей Ильин.
                       </h3>
-    
                       <p class="event-article__descr">
-                        Высокий уровень вовлечения представителей целевой аудитории является чётким доказательством простого факта
+                        Высокий уровень вовлечения представителей целевой аудитории является чётким доказательством
+                        простого факта
                       </p>
-    
                       <a href="#events" class="event-article__link" target="_blank">
                         Подробнее
                       </a>
@@ -1296,8 +1147,8 @@
                 <div class="events__item swiper-slide">
                   <article class="events__article event-article">
                     <picture class="event-article__img">
-                      <source srcset="img/events-320-3.jpg" media="(min-width: 320px) and (max-width: 575px)">
-                      <source srcset="img/events-576-3.jpg" media="(max-width: 576px)">
+                      <source srcset="img/events-320-3.jpg" media="(min-width: 320px) and (max-width: 480px)">
+                      <source srcset="img/events-647-3.jpg" media="(max-width: 647px)">
                       <source srcset="img/events-768-3.jpg" media="(max-width: 768px)">
                       <source srcset="img/events-1024-3.jpg" media="(max-width: 1024px)">
                       <img src="img/events-1920-3.jpg" alt="Помещение галереи">
@@ -1324,8 +1175,8 @@
                 <div class="events__item swiper-slide">
                   <article class="events__article event-article">
                     <picture class="event-article__img">
-                      <source srcset="img/events-320-4.jpg" media="(min-width: 320px) and (max-width: 575px)">
-                      <source srcset="img/events-576-4.jpg" media="(max-width: 576px)">
+                      <source srcset="img/events-320-4.jpg" media="(min-width: 320px) and (max-width: 480px)">
+                      <source srcset="img/events-647-4.jpg" media="(max-width: 647px)">
                       <source srcset="img/events-768-4.jpg" media="(max-width: 768px)">
                       <source srcset="img/events-1024-4.jpg" media="(max-width: 1024px)">
                       <img src="img/events-1920-4.jpg" alt="Абстрактная фотография">
@@ -1351,11 +1202,11 @@
                 <div class="events__item swiper-slide">
                   <article class="events__article event-article">
                     <picture class="event-article__img">
-                      <source srcset="img/events-320-5.jpg" media="(min-width: 320px) and (max-width: 575px)">
-                      <source srcset="img/events-576-5.jpg" media="(max-width: 576px)">
+                      <source srcset="img/events-320-5.jpg" media="(min-width: 320px) and (max-width: 480px)">
+                      <source srcset="img/events-647-5.jpg" media="(max-width: 647px)">
                       <source srcset="img/events-768-5.jpg" media="(max-width: 768px)">
                       <source srcset="img/events-1024-5.jpg" media="(max-width: 1024px)">
-                      <img src="img/events-1920-5.jpg" alt="Подвешенные разноцветные ленты">
+                      <img src="img/events-1920-5.jpg" alt="Разноцветные ленты">
                     </picture>
                     <div class="event-article__text">
                       <div class="event-article__info">
@@ -1442,8 +1293,7 @@
                 <div class="projects__item swiper-slide">
                   <a class="projects__item-link" href="#">
                     <div class="projects__item-link-box">
-                      <img class="projects__item-link-box-img-hover" alt=""
-                        aria-hidden="true">
+                      <img class="projects__item-link-box-img-hover" alt="" aria-hidden="true">
                       <img alt="Freeland Foundation" class="projects__item-link-box-img">
                     </div>
                   </a>
@@ -1451,18 +1301,15 @@
                 <div class="projects__item swiper-slide">
                   <a class="projects__item-link" href="#">
                     <div class="projects__item-link-box">
-                      <img class="projects__item-link-box-img-hover" alt=""
-                        aria-hidden="true">
-                      <img alt="Institute for Contemporary Art"
-                        class="projects__item-link-box-img">
+                      <img class="projects__item-link-box-img-hover" alt="" aria-hidden="true">
+                      <img alt="Institute for Contemporary Art" class="projects__item-link-box-img">
                     </div>
                   </a>
                 </div>
                 <div class="projects__item swiper-slide">
                   <a class="projects__item-link" href="#">
                     <div class="projects__item-link-box">
-                      <img class="projects__item-link-box-img-hover" alt=""
-                        aria-hidden="true">
+                      <img class="projects__item-link-box-img-hover" alt="" aria-hidden="true">
                       <img alt="Workhouse Arts Center" class="projects__item-link-box-img">
                     </div>
                   </a>
@@ -1470,8 +1317,7 @@
                 <div class="projects__item swiper-slide">
                   <a class="projects__item-link" href="#">
                     <div class="projects__item-link-box">
-                      <img class="projects__item-link-box-img-hover" alt=""
-                        aria-hidden="true">
+                      <img class="projects__item-link-box-img-hover" alt="" aria-hidden="true">
                       <img alt="1849 Wine Company" class="projects__item-link-box-img">
                     </div>
                   </a>
@@ -1479,8 +1325,7 @@
                 <div class="projects__item swiper-slide">
                   <a class="projects__item-link" href="#">
                     <div class="projects__item-link-box">
-                      <img class="projects__item-link-box-img-hover" alt=""
-                        aria-hidden="true">
+                      <img class="projects__item-link-box-img-hover" alt="" aria-hidden="true">
                       <img alt="Hiscox" class="projects__item-link-box-img">
                     </div>
                   </a>
@@ -1488,8 +1333,7 @@
                 <div class="projects__item swiper-slide">
                   <a class="projects__item-link" href="#">
                     <div class="projects__item-link-box">
-                      <img class="projects__item-link-box-img-hover" alt=""
-                        aria-hidden="true">
+                      <img class="projects__item-link-box-img-hover" alt="" aria-hidden="true">
                       <img alt="Camden Arts Centre" class="projects__item-link-box-img">
                     </div>
                   </a>
@@ -1497,29 +1341,25 @@
                 <div class="projects__item swiper-slide">
                   <a class="projects__item-link" href="#">
                     <div class="projects__item-link-box">
-                      <img class="projects__item-link-box-img-hover" alt=""
-                        aria-hidden="true">
-                      <img alt="Stassen Premium Belgian Cider"
-                        class="projects__item-link-box-img">
+                      <img class="projects__item-link-box-img-hover" alt="" aria-hidden="true">
+                      <img alt="Stassen Premium Belgian Cider" class="projects__item-link-box-img">
                     </div>
                   </a>
                 </div>
                 <div class="projects__item swiper-slide">
                   <a class="projects__item-link" href="#">
                     <div class="projects__item-link-box">
-                      <img class="projects__item-link-box-img-hover" alt=""
-                        aria-hidden="true">
-                      <img alt="Watts Gallery – Artists' Village"
-                        class="projects__item-link-box-img">
+                      <img class="projects__item-link-box-img-hover" alt="" aria-hidden="true">
+                      <img alt="Watts Gallery – Artists' Village" class="projects__item-link-box-img">
                     </div>
                   </a>
                 </div>
                 <div class="projects__item swiper-slide">
                   <a class="projects__item-link" href="#">
                     <div class="projects__item-link-box">
-                      <img class="projects__item-link-box-img-hover" alt=""
-                        aria-hidden="true">
-                      <img alt="ESAD — Valenciennes Higher School of Art and Design" class="projects__item-link-box-img">
+                      <img class="projects__item-link-box-img-hover" alt="" aria-hidden="true">
+                      <img alt="ESAD — Valenciennes Higher School of Art and Design"
+                        class="projects__item-link-box-img">
                     </div>
                   </a>
                 </div>
@@ -1598,14 +1438,13 @@
       <div id="map"></div>
     </section>
   </main>
-  
   <footer>
     <div class="container">
       <div class="footer footer-wrapper">
         <div class="footer__logo">
           <picture>
-            <source srcset="img/logo-small.png" type="image/png" media="(min-width: 320px) and (max-width: 575px)">
-            <source srcset="img/logo-medium.png" type="image/png" media="(max-width: 576px)">
+            <source srcset="img/logo-small.png" type="image/png" media="(min-width: 320px) and (max-width: 414px)">
+            <source srcset="img/logo-medium.png" type="image/png" media="(max-width: 647px)">
             <source srcset="img/logo-large.png" type="image/png" media="(max-width: 1024px)"> <img
               src="img/logo-medium.png" alt="Логотип Blanchard" aria-hidden="true">
           </picture>

@@ -48,18 +48,42 @@ document.addEventListener('DOMContentLoaded', function() {
       slideRole: "none",
     },
     breakpoints: {
-      1024: {
+      1920: {
         slidesPerView: 3,
         slidesPerGroup: 3,
         spaceBetween: 50,
         allowTouchMove: false,
       },
-      576: {
+
+      1366: {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
+        spaceBetween: 34,
+        allowTouchMove: false,
+      },
+
+      1024: {
+        slidesPerView: 2,
+        slidesPerGroup: 2,
+        spaceBetween: 34,
+        allowTouchMove: false,
+      },
+
+      768: {
         slidesPerView: 2,
         slidesPerGroup: 2,
         spaceBetween: 38,
         allowTouchMove: true,
       },
+
+
+      // 647: {
+      //   slidesPerView: 2,
+      //   slidesPerGroup: 2,
+      //   spaceBetween: 42,
+      //   allowTouchMove: true,
+      // },
+
       0: {
         slidesPerView: 1,
         slidesPerGroup: 1,

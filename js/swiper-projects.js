@@ -30,10 +30,10 @@ const projectsSwiper = new Swiper('.projects__swiper', {
         spaceBetween: 50,
         allowTouchMove: true,
       },
-      576: {
+      647: {
         slidesPerView: 2,
         slidesPerGroup: 2,
-        spaceBetween: 34,
+        spaceBetween: 30,
         allowTouchMove: true,
       },
       0: {

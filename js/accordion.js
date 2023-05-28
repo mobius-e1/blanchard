@@ -49,7 +49,7 @@ const catalogAccordion = new Accordion('.catalog__accordion', {
         catalogempty.classList.add('catalog__content--active');
       };
 
-      if (window.screen.width <= 576) {
+      if (window.screen.width <= 647) {
         (catalogTargetContent || catalogempty).scrollIntoView();
       }
 

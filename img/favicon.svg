@@ -1,3 +1,23 @@
-<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M2 25H15.1558C20.3442 25 23 22.5893 23 18V17.9286C23 14.5179 21.3116 12.4464 18.0578 11.8571V11.5357C20.7839 11 22.2085 9.17857 22.2085 6.21429V6.125C22.2085 2.08929 19.7286 0 14.8744 0H2V25ZM7.18844 10.2321V3.53571H13.3266C15.8065 3.53571 17.0377 4.64286 17.0377 6.82143V6.89286C17.0377 9.10714 15.8065 10.2321 13.3266 10.2321H7.18844ZM7.18844 21.4464V13.4821H13.4849C16.2111 13.4821 17.5653 14.8036 17.5653 17.3929V17.4643C17.5653 20.1071 16.2111 21.4464 13.4849 21.4464H7.18844Z" fill="#C283F3"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2020 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="94px" height="94px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 62.08 62.08"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#F7F7F7}
+    .fil1 {fill:#333333;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2215667355440">
+   <rect class="fil0" width="62.08" height="62.08" rx="7.76" ry="6.95"/>
+   <path id="favicon.svg" class="fil1" d="M10.7 56.32l27.01 0c10.65,0 16.1,-4.95 16.1,-14.37l0 -0.15c0,-7 -3.46,-11.25 -10.14,-12.46l0 -0.66c5.59,-1.1 8.52,-4.84 8.52,-10.93l0 -0.18c0,-8.29 -5.09,-12.58 -15.06,-12.58l-26.43 0 0 51.33zm10.65 -30.32l0 -13.75 12.6 0c5.09,0 7.62,2.27 7.62,6.75l0 0.14c0,4.55 -2.53,6.86 -7.62,6.86l-12.6 0zm0 23.03l0 -16.36 12.93 0c5.6,0 8.38,2.72 8.38,8.03l0 0.15c0,5.43 -2.78,8.18 -8.38,8.18l-12.93 0z"/>
+  </g>
+ </g>
 </svg>

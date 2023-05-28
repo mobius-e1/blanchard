@@ -2268,7 +2268,7 @@ div[data-tippy-root] {
   max-height: 700px;
   overflow: hidden;
 }
-
+/* 
 [class*="copyrights-pane"] {
   display: none;
 }
@@ -2303,7 +2303,7 @@ div[data-tippy-root] {
 
 .ymaps-2-1-79-balloon__close {
   display: none;
-}
+} */
 
 .footer-wrapper {
   display: flex;

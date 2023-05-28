@@ -34,4 +34,4 @@ function init() {
 
 }
 
-// myMap.geoObjects.add(myGeoObject);
+myMap.geoObjects.add(myGeoObject);

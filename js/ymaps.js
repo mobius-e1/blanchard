@@ -26,7 +26,8 @@ function init() {
     clusterer.add(myGeoObjects);
     myMap.geoObjects.add(clusterer);
     myMap.behaviors.disable('scrollZoom');
-
+    myMap.behaviors.disable('drag');
+    
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
         myMap.behaviors.disable('drag');
     }

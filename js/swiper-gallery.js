@@ -1,11 +1,11 @@
 
 "use strict"
-document.addEventListener('DOMContentLoaded', function() {
-// global
+document.addEventListener('DOMContentLoaded', function () {
+  // global
   let focusable = document.querySelectorAll('[tabindex="0"]');
 
   focusable.forEach((e) => {
-    e.addEventListener('keydown', function(k) {
+    e.addEventListener('keydown', function (k) {
       if (k.keyCode === 13) {
         this.click();
       }
@@ -15,26 +15,18 @@ document.addEventListener('DOMContentLoaded', function() {
   let focusControl = new IntersectionObserver(function (entries) {
     entries.forEach(function (entry) {
 
-        if (!entry.isIntersecting) {
-          entry.target.setAttribute('inert', '');
-          entry.target.setAttribute('aria-hidden', 'true');
-        } else {
-          entry.target.removeAttribute('inert');
-          entry.target.removeAttribute('aria-hidden');
-        }
+      if (!entry.isIntersecting) {
+        entry.target.setAttribute('inert', '');
+        entry.target.setAttribute('aria-hidden', 'true');
+      } else {
+        entry.target.removeAttribute('inert');
+        entry.target.removeAttribute('aria-hidden');
+      }
 
     });
   });
 
 
-
-  
-
-  
-
-
-
-  // gallery swiper
   const gallerySwiper = new Swiper('.gallery__swiper', {
     speed: 400,
     navigation: {
@@ -77,12 +69,12 @@ document.addEventListener('DOMContentLoaded', function() {
       },
 
 
-      // 647: {
-      //   slidesPerView: 2,
-      //   slidesPerGroup: 2,
-      //   spaceBetween: 42,
-      //   allowTouchMove: true,
-      // },
+      414: {
+        slidesPerView: 2,
+        slidesPerGroup: 2,
+        spaceBetween: 30,
+        allowTouchMove: true,
+      },
 
       0: {
         slidesPerView: 1,
@@ -98,19 +90,19 @@ document.addEventListener('DOMContentLoaded', function() {
     focusControl.observe(slide);
   })
 
-  let countSwiperPages = function(swiper, pageDisplayClass = false) {
+  let countSwiperPages = function (swiper, pageDisplayClass = false) {
 
-    let count = function() {
+    let count = function () {
 
-    let currentBP = swiper.currentBreakpoint;
-    let slidesPerView = (swiper.originalParams.breakpoints[currentBP]).slidesPerGroup;
+      let currentBP = swiper.currentBreakpoint;
+      let slidesPerView = (swiper.originalParams.breakpoints[currentBP]).slidesPerGroup;
 
-    let currentPage = Math.ceil(swiper.activeIndex / slidesPerView + 1);
-    let maxPages = Math.ceil(swiper.slides.length / slidesPerView);
+      let currentPage = Math.ceil(swiper.activeIndex / slidesPerView + 1);
+      let maxPages = Math.ceil(swiper.slides.length / slidesPerView);
 
-    if (pageDisplayClass) document.querySelector(pageDisplayClass).textContent = `${currentPage} / ${maxPages}`;
+      if (pageDisplayClass) document.querySelector(pageDisplayClass).textContent = `${currentPage} / ${maxPages}`;
 
-    swiper.wrapperEl.setAttribute('aria-label', `Страница ${currentPage} из ${maxPages}`);
+      swiper.wrapperEl.setAttribute('aria-label', `Страница ${currentPage} из ${maxPages}`);
 
     }
 
@@ -124,10 +116,6 @@ document.addEventListener('DOMContentLoaded', function() {
   countSwiperPages(gallerySwiper, '.gallery__swiper-page');
 
 
-
-
-  
-  // gallery modal window
   let galleryModalWindow = document.querySelector('.gallery__modal');
   let galleryModalBtns = document.querySelectorAll('.gallery__modal-btn');
 
@@ -136,7 +124,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   gallerySwiper.slides.forEach((slide) => {
-    slide.addEventListener('click', function() {
+    slide.addEventListener('click', function () {
 
       galleryModalWindow.classList.add('gallery__modal--active');
 
@@ -150,7 +138,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   galleryModalBtns.forEach((btn) => {
 
-    btn.addEventListener('click', function() {
+    btn.addEventListener('click', function () {
 
       galleryModalWindow.classList.remove('gallery__modal--active');
 
@@ -161,11 +149,11 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
-  galleryModalWindow.addEventListener('click', function(event) {
+  galleryModalWindow.addEventListener('click', function (event) {
 
     let activeItem = getActiveModalItem();
 
-    if ( activeItem && !event.composedPath().includes(activeItem) ) {
+    if (activeItem && !event.composedPath().includes(activeItem)) {
 
       galleryModalWindow.classList.remove('gallery__modal--active');
 
@@ -176,6 +164,5 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
   })
-
 
 });

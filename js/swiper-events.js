@@ -1,6 +1,3 @@
-
-// events
-  //  swiper-events
   const eventsSwiper = new Swiper('.events__swiper', {
     speed: 400,
     navigation: {
@@ -20,28 +17,28 @@
       slideRole: "none",
     },
     breakpoints: {
-      1025: {
+      1024: {
         slidesPerView: 3,
         slidesPerGroup: 3,
-        spaceBetween: 50,
+        spaceBetween: 30,
         allowTouchMove: false,
       },
       875: {
         slidesPerView: 3,
         slidesPerGroup: 3,
-        spaceBetween: 27,
+        spaceBetween: 30,
         allowTouchMove: true,
       },
       647: {
         slidesPerView: 2,
         slidesPerGroup: 2,
-        spaceBetween: 42,
+        spaceBetween: 40,
         allowTouchMove: true,
       },
       0: {
         slidesPerView: 1,
         slidesPerGroup: 1,
-        // spaceBetween: 30,
+        spaceBetween: 30,
         allowTouchMove: true,
       },
     },

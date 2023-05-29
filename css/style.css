@@ -2317,12 +2317,6 @@ div[data-tippy-root] {
   background-image: url("../img/mapmark.svg") !important;
 }
 
-.ymaps-2-1-79-image:hover {
-  background-image: url("../img/mapmark-hover.svg") !important;
-}
-
-
-
 .footer-wrapper {
   display: flex;
   justify-content: space-between;

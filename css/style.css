@@ -2400,7 +2400,7 @@ div[data-tippy-root] * {
   display: flex;
   line-height: 0;
 }
-
+ 
 .footer__socials-item:not(:last-child) {
   margin-right: 20px;
 }

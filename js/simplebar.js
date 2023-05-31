@@ -1,4 +1,3 @@
-// header dropdowns
 let dropdownBtns = document.querySelectorAll('.header__dropdown-btn');
 let dropdownItems = Array.from(dropdownBtns).map((btn) => {
   return [btn, btn.nextElementSibling];

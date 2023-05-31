@@ -1,7 +1,7 @@
 
 "use strict"
 document.addEventListener('DOMContentLoaded', function () {
-  // global
+  
   let focusable = document.querySelectorAll('[tabindex="0"]');
 
   focusable.forEach((e) => {

@@ -1,5 +1,3 @@
-// gallery
-  // gallery select
   const gellerySelect = document.querySelector('.filter-form__select');
   const galleryChoices = new Choices(gellerySelect, {
     searchEnabled: false,

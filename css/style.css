@@ -2148,13 +2148,13 @@ p.gallery__modal-wrapper-text-descr {
   margin-bottom: 16px;
 }
 
-div[data-tippy-root] {
+[data-tippy-root] {
   max-width: 285px;
   text-align: center;
 }
 
-div[data-tippy-root],
-div[data-tippy-root] * {
+[data-tippy-root],
+[data-tippy-root] * {
   color: var(--white);
   background-color: var(--amethyst);
 }

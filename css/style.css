@@ -1227,8 +1227,6 @@ p.gallery__modal-wrapper-text-descr {
   background-size: contain;
 }
 
-
-
 .choices__item.choices__item--choice.choices__item--selectable {
   margin-top: -1px;
   padding: 3px 15px;
@@ -2358,6 +2356,8 @@ p.gallery__modal-wrapper-text-descr {
   justify-content: space-between;
   align-items: center;
   height: 140px;
+  padding-right: var(--indent);
+  padding-left: var(--indent);
 }
 
 .footer__logo {
@@ -2387,6 +2387,6 @@ p.gallery__modal-wrapper-text-descr {
   fill: var(--white);
 }
 
-.footer__socials-link:active svg {
+.footer__socials-link:active.footer__socials-link svg {
   fill: var(--amethyst);
 }

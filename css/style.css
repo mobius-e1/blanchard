@@ -1081,7 +1081,7 @@ p.gallery__modal-wrapper-text-descr {
 }
 
 .gallery__swiper-btn.swiper-button-disabled:active {
-  border: none;
+  border: var(--whisper);
   background-color: var(--whisper);
 }
 
@@ -2113,17 +2113,6 @@ p.gallery__modal-wrapper-text-descr {
   stroke: var(--very-light-grey);
 }
 
-.projects__swiper-btn.swiper-button-disabled {
-  border-color: transparent;
-  cursor: default;
-  background-color: var(--whisper);
-  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-}
-
-.projects__swiper-btn.swiper-button-disabled:hover {
-  background-color: var(--whisper);
-}
-
 .projects__swiper-btn:focus-visible {
   border-color: var(--amethyst);
 }
@@ -2135,6 +2124,21 @@ p.gallery__modal-wrapper-text-descr {
 .projects__swiper-btn:active {
   border-color: var(--amethyst);
   background-color: var(--mauve);
+}
+
+.projects__swiper-btn.swiper-button-disabled {
+  cursor: default;
+  background-color: var(--whisper);
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.projects__swiper-btn.swiper-button-disabled:hover {
+  background-color: var(--whisper);
+}
+
+.projects__swiper-btn.swiper-button-disabled:active {
+  border-color: var(--whisper);
+  background-color: var(--whisper);
 }
 
 .projects__swiper-container {

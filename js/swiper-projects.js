@@ -12,6 +12,15 @@ const projectsSwiper = new Swiper('.projects__swiper', {
       slideRole: "none",
     },
   breakpoints: {
+
+
+    2560: {
+      slidesPerView: 3,
+      slidesPerGroup: 3,
+      spaceBetween: 50,
+      allowTouchMove: false,
+    },
+
     1920: {
       slidesPerView: 3,
       slidesPerGroup: 3,

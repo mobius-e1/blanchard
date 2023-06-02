@@ -6,35 +6,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blanchard &vert; Художественная галерея</title>
   <link type="image/svg+xml" href="img/favicon.svg" rel="icon">
+  <!-- css -->
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/choices.css">
   <link rel="stylesheet" href="css/simplebar.css">
   <link rel="stylesheet" href="css/swiper.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/media.css">
-  <script src="js/start.js" defer></script>
-  <script src="js/scroll.js" defer></script>
-  <script src="js/burger.js" defer></script>
-  <script src="js/search.js" defer></script>
+  <!-- library scripts -->
   <script src="js/simplebar.min.js" defer></script>
-  <script src="js/simplebar.js" defer></script>
   <script src="js/swiper-bundle.min.js" defer></script>
+  <script src="js/choices.min.js" defer></script>
+  <script src="js/popper.min.js" defer></script>
+  <script src="js/tippy-bundle.umd.js" defer></script>
+  <script src="js/accordion.min.js" defer></script>
+  <script src="js/inputmask.min.js" defer></script>
+  <script src="js/just-validate.production.min.js" defer></script>
+  <script src="js/api-maps.yandex.ru.js" defer></script>
+  <!-- connection scripts -->
+  <script src="js/simplebar.js" defer></script>
   <script src="js/swiper-introduction.js" defer></script>
   <script src="js/swiper-gallery.js" defer></script>
   <script src="js/swiper-events.js" defer></script>
   <script src="js/swiper-projects.js" defer></script>
-  <script src="js/choices.min.js" defer></script>
   <script src="js/choices.js" defer></script>
-  <script src="js/accordion.min.js" defer></script>
   <script src="js/accordion.js" defer></script>
-  <script src="js/popper.min.js" defer></script>
-  <script src="js/tippy-bundle.umd.js" defer></script>
   <script src="js/tippy.js" defer></script>
-  <script src="js/inputmask.min.js" defer></script>
-  <script src="js/just-validate.production.min.js" defer></script>
   <script src="js/mask-validate.js" defer></script>
-  <script src="js/api-maps.yandex.ru.js" defer></script>
   <script src="js/ymaps.js" defer></script>
+  <!-- other scripts -->
+  <script src="js/start.js" defer></script>
+  <script src="js/scroll.js" defer></script>
+  <script src="js/burger.js" defer></script>
+  <script src="js/search.js" defer></script>
 </head>
 
 <body class="body-hide">
@@ -431,11 +435,9 @@
                   Мы&nbsp;вынуждены отталкиваться от&nbsp;того, что реализация намеченных плановых заданий создаёт
                   предпосылки для новых предложений
                 </p>
-                <button class="introduction__btn">
-                  <a href="#contacts" class="introduction__link">
-                    Подписаться на&nbsp;рассылку
-                  </a>
-                </button>
+                <a class="introduction__link">
+                  Подписаться на&nbsp;рассылку
+                </a>
               </div>
             </div>
           </div>
@@ -517,14 +519,14 @@
                 </svg>
               </div>
             </div>
-            <div class="gallery__swiper-wrapper swiper-wrapper">
-              <div class="gallery__swiper-slide swiper-slide" tabindex="0" data-swiper-slide="1"></div>
-              <div class="gallery__swiper-slide swiper-slide" tabindex="0" data-swiper-slide="2"></div>
-              <div class="gallery__swiper-slide swiper-slide" tabindex="0" data-swiper-slide="3"></div>
-              <div class="gallery__swiper-slide swiper-slide" tabindex="0" data-swiper-slide="4"></div>
-              <div class="gallery__swiper-slide swiper-slide" tabindex="0" data-swiper-slide="5"></div>
-              <div class="gallery__swiper-slide swiper-slide" tabindex="0" data-swiper-slide="6"></div>
-            </div>
+            <ul class="gallery__swiper-wrapper swiper-wrapper">
+              <li class="gallery__swiper-slide swiper-slide" tabindex="0" data-swiper-slide="1"></li>
+              <li class="gallery__swiper-slide swiper-slide" tabindex="0" data-swiper-slide="2"></li>
+              <li class="gallery__swiper-slide swiper-slide" tabindex="0" data-swiper-slide="3"></li>
+              <li class="gallery__swiper-slide swiper-slide" tabindex="0" data-swiper-slide="4"></li>
+              <li class="gallery__swiper-slide swiper-slide" tabindex="0" data-swiper-slide="5"></li>
+              <li class="gallery__swiper-slide swiper-slide" tabindex="0" data-swiper-slide="6"></li>
+            </ul>
           </div>
           <div class="gallery__modal">
             <div class="gallery__modal-item" data-swiper-modal="1">
@@ -690,8 +692,8 @@
             день остаются уделом либералов, которые жаждут быть функционально разнесены на&nbsp;независимые элементы.
           </p>
           <div class="catalog__wrapper">
-            <div class="catalog__accordion">
-              <div class="ac catalog__accordion-item">
+            <ul class="catalog__accordion">
+              <li class="ac catalog__accordion-item">
                 <div class="catalog__accordion-header ac-trigger" tabindex="0">
                   <span>C 1400 по 1499 гг.</span>
                   <div class="catalog__accordion-btn">
@@ -777,8 +779,8 @@
                     </li>
                   </ul>
                 </div>
-              </div>
-              <div class="ac catalog__accordion-item">
+              </li>
+              <li class="ac catalog__accordion-item">
                 <div class="catalog__accordion-header ac-trigger" tabindex="0">
                   <span>C 1500 по 1599 гг.</span>
                   <div class="catalog__accordion-btn">
@@ -805,8 +807,8 @@
                     </p>
                   </div>
                 </div>
-              </div>
-              <div class="ac catalog__accordion-item">
+              </li>
+              <li class="ac catalog__accordion-item">
                 <div class="catalog__accordion-header ac-trigger" tabindex="0">
                   <span>C 1600 по 1699 гг.</span>
                   <div class="catalog__accordion-btn">
@@ -833,8 +835,8 @@
                     </p>
                   </div>
                 </div>
-              </div>
-              <div class="ac catalog__accordion-item">
+              </li>
+              <li class="ac catalog__accordion-item">
                 <div class="catalog__accordion-header ac-trigger" tabindex="0">
                   <span>C 1700 по 1799 гг.</span>
                   <div class="catalog__accordion-btn">
@@ -861,8 +863,8 @@
                     </p>
                   </div>
                 </div>
-              </div>
-              <div class="ac catalog__accordion-item">
+              </li>
+              <li class="ac catalog__accordion-item">
                 <div class="catalog__accordion-header ac-trigger" tabindex="0">
                   <span>C 1800 по 1899 гг.</span>
                   <div class="catalog__accordion-btn">
@@ -889,8 +891,8 @@
                     </p>
                   </div>
                 </div>
-              </div>
-              <div class="ac catalog__accordion-item">
+              </li>
+              <li class="ac catalog__accordion-item">
                 <div class="catalog__accordion-header ac-trigger" tabindex="0">
                   <span>C 1900 по 1999 гг.</span>
                   <div class="catalog__accordion-btn">
@@ -917,8 +919,8 @@
                     </p>
                   </div>
                 </div>
-              </div>
-              <div class="ac catalog__accordion-item">
+              </li>
+              <li class="ac catalog__accordion-item">
                 <div class="catalog__accordion-header ac-trigger" tabindex="0">
                   <span>C 2000 г.</span>
                   <div class="catalog__accordion-btn">
@@ -945,12 +947,12 @@
                     </p>
                   </div>
                 </div>
-              </div>
-            </div>
+              </li>
+            </ul>
             <div class="catalog__content-wrapper">
               <article class="catalog__content catalog__content--active" data-catalog-content="Доменико Гирландайо">
                 <picture class="catalog__content-img">
-                  <source srcset="img/catalog-320-ghirlandaio.jpg" media="(min-width: 320px) and (max-width: 480px)">
+                  <source srcset="img/catalog-320-ghirlandaio.jpg" media="(min-width: 320px) and (max-width: 414px)">
                   <source srcset="img/catalog-768-ghirlandaio.jpg" media="(max-width: 768px)">
                   <source srcset="img/catalog-1024-ghirlandaio.jpg" media="(max-width: 1024px)">
                   <img src="img/catalog-1920-ghirlandaio.jpg" alt="Доменико Гирландайо. Автопортрет"
@@ -972,7 +974,7 @@
               </article>
               <article class="catalog__content" data-catalog-content="Бенедетто ди Биндо">
                 <picture class="catalog__content-img">
-                  <source srcset="img/catalog-320-dibingo.jpg" media="(min-width: 320px) and (max-width: 480px)">
+                  <source srcset="img/catalog-320-dibingo.jpg" media="(min-width: 320px) and (max-width: 414px)">
                   <source srcset="img/catalog-768-dibingo.jpg" media="(max-width: 768px)">
                   <source srcset="img/catalog-1024-dibingo.jpg" media="(max-width: 1024px)">
                   <img src="img/catalog-1920-dibingo.jpg"
@@ -998,7 +1000,7 @@
               </article>
               <article class="catalog__content" data-catalog-content="Бергоньоне, Амброджо">
                 <picture class="catalog__content-img">
-                  <source srcset="img/catalog-320-bergognone.jpg" media="(min-width: 320px) and (max-width: 480px)">
+                  <source srcset="img/catalog-320-bergognone.jpg" media="(min-width: 320px) and (max-width: 414px)">
                   <source srcset="img/catalog-768-bergognone.jpg" media="(max-width: 768px)">
                   <source srcset="img/catalog-1024-bergognone.jpg" media="(max-width: 1024px)">
                   <img src="img/catalog-1920-bergognone.jpg" alt="Амброджо Бергоньоне. «Мадонна с младенцем»"
@@ -1024,7 +1026,7 @@
               </article>
               <article class="catalog__content" data-catalog-content="Биссоло, Франческо">
                 <picture class="catalog__content-img">
-                  <source srcset="img/catalog-320-bissolo.jpg" media="(min-width: 320px) and (max-width: 480px)">
+                  <source srcset="img/catalog-320-bissolo.jpg" media="(min-width: 320px) and (max-width: 414px)">
                   <source srcset="img/catalog-768-bissolo.jpg" media="(max-width: 768px)">
                   <source srcset="img/catalog-1024-bissolo.jpg" media="(max-width: 1024px)">
                   <img src="img/catalog-1920-bissolo.jpg"
@@ -1052,7 +1054,7 @@
               <div class="catalog__content catalog-empty" data-catalog-content="empty">
                 <div class="catalog__content-img">
                   <picture>
-                    <source srcset="img/catalog-320-empty.jpg" media="(min-width: 320px) and (max-width: 480px)">
+                    <source srcset="img/catalog-320-empty.jpg" media="(min-width: 320px) and (max-width: 414px)">
                     <source srcset="img/catalog-768-empty.jpg" media="(max-width: 768px)">
                     <source srcset="img/catalog-1024-empty.jpg" media="(max-width: 1024px)">
                     <img src="img/catalog-1920-empty.jpg" alt="Х — Художник">
@@ -1089,21 +1091,21 @@
                   <path d="M17.3333 1.33334L9 9.66667L0.666664 1.33334"></path>
                 </svg>
               </div>
-              <div class="events__list swiper-wrapper">
-                <div class="events__item swiper-slide">
+              <ul class="events__list swiper-wrapper">
+                <li class="events__item swiper-slide">
                   <article class="events__article event-article">
                     <picture class="event-article__img">
-                      <source srcset="img/events-320-1.jpg" media="(min-width: 320px) and (max-width: 480px)">
+                      <source srcset="img/events-320-1.jpg" media="(min-width: 320px) and (max-width: 414px)">
                       <source srcset="img/events-647-1.jpg" media="(max-width: 647px)">
                       <source srcset="img/events-768-1.jpg" media="(max-width: 768px)">
                       <source srcset="img/events-1024-1.jpg" media="(max-width: 1024px)">
                       <img src="img/events-1920-1.jpg" alt="Резьба по дереву стамеской">
                     </picture>
                     <div class="event-article__text">
-                      <div class="event-article__info">
-                        <div>Музей им. Щусева</div>с <time datetime="2022-03-20">20 марта</time> по <time
-                          datetime="2022-04-30">30 апреля</time>
-                      </div>
+                      <span class="event-article__info"><span>Музей им. Щусева</span>
+                        <br>с <time datetime="2022-03-20">20 марта</time> по <time datetime="2022-04-30">30
+                          апреля</time>
+                      </span>
                       <h3 class="event-article__title">
                         Книжная гравюра в&nbsp;живом восприятии
                       </h3>
@@ -1116,21 +1118,21 @@
                       </a>
                     </div>
                   </article>
-                </div>
-                <div class="events__item swiper-slide">
+                </li>
+                <li class="events__item swiper-slide">
                   <article class="events__article event-article">
                     <picture class="event-article__img">
-                      <source srcset="img/events-320-2.jpg" media="(min-width: 320px) and (max-width: 480px)">
+                      <source srcset="img/events-320-2.jpg" media="(min-width: 320px) and (max-width: 414px)">
                       <source srcset="img/events-647-2.jpg" media="(max-width: 647px)">
                       <source srcset="img/events-768-2.jpg" media="(max-width: 768px)">
                       <source srcset="img/events-1024-2.jpg" media="(max-width: 1024px)">
                       <img src="img/events-1920-2.jpg" alt="Фотография: двое мужчин">
                     </picture>
                     <div class="event-article__text">
-                      <div class="event-article__info">
+                      <span class="event-article__info">
                         <abbr title="Московский музей современного искусства">ММОМА</abbr><time
                           datetime="2022-03-24 19:00">24 марта 19:00</time>
-                      </div>
+                      </span>
                       <h3 class="event-article__title">
                         &laquo;Открытая дискуссия&raquo;. Дмитрий Петров и&nbsp;Сергей Ильин.
                       </h3>
@@ -1143,21 +1145,22 @@
                       </a>
                     </div>
                   </article>
-                </div>
-                <div class="events__item swiper-slide">
+                </li>
+                <li class="events__item swiper-slide">
                   <article class="events__article event-article">
                     <picture class="event-article__img">
-                      <source srcset="img/events-320-3.jpg" media="(min-width: 320px) and (max-width: 480px)">
+                      <source srcset="img/events-320-3.jpg" media="(min-width: 320px) and (max-width: 414px)">
                       <source srcset="img/events-647-3.jpg" media="(max-width: 647px)">
                       <source srcset="img/events-768-3.jpg" media="(max-width: 768px)">
                       <source srcset="img/events-1024-3.jpg" media="(max-width: 1024px)">
                       <img src="img/events-1920-3.jpg" alt="Помещение галереи">
                     </picture>
                     <div class="event-article__text">
-                      <div class="event-article__info">
-                        <div>Еврейский музей</div>c <time datetime="2022-03-31">31 марта</time> по <time
-                          datetime="2022-04-21">21 апреля</time>
-                      </div>
+                      <span class="event-article__info">
+                        <span>Еврейский музей</span>
+                        <br>с <time datetime="2022-03-31">31 марта</time> по <time datetime="2022-04-21">21
+                          апреля</time>
+                      </span>
                       <h3 class="event-article__title">
                         Выставка &laquo;Формация 2020&raquo;
                       </h3>
@@ -1171,21 +1174,21 @@
                       </a>
                     </div>
                   </article>
-                </div>
-                <div class="events__item swiper-slide">
+                </li>
+                <li class="events__item swiper-slide">
                   <article class="events__article event-article">
                     <picture class="event-article__img">
-                      <source srcset="img/events-320-4.jpg" media="(min-width: 320px) and (max-width: 480px)">
+                      <source srcset="img/events-320-4.jpg" media="(min-width: 320px) and (max-width: 414px)">
                       <source srcset="img/events-647-4.jpg" media="(max-width: 647px)">
                       <source srcset="img/events-768-4.jpg" media="(max-width: 768px)">
                       <source srcset="img/events-1024-4.jpg" media="(max-width: 1024px)">
                       <img src="img/events-1920-4.jpg" alt="Абстрактная фотография">
                     </picture>
                     <div class="event-article__text">
-                      <div class="event-article__info">
-                        <abbr title="Мультимедиа арт музей, Москва">ММАМ</abbr>с <time datetime="2022-04-08">8
+                      <span class="event-article__info">
+                        <abbr title="Мультимедиа Арт Музей, Москва">ММАМ</abbr>с <time datetime="2022-04-08">8
                           апреля</time> по <time datetime="2022-05-20">20 мая</time>
-                      </div>
+                      </span>
                       <h3 class="event-article__title">
                         Джон Винзор. Фотографии из&nbsp;серии &laquo;Метафора&raquo;
                       </h3>
@@ -1198,21 +1201,22 @@
                       </a>
                     </div>
                   </article>
-                </div>
-                <div class="events__item swiper-slide">
+                </li>
+                <li class="events__item swiper-slide">
                   <article class="events__article event-article">
                     <picture class="event-article__img">
-                      <source srcset="img/events-320-5.jpg" media="(min-width: 320px) and (max-width: 480px)">
+                      <source srcset="img/events-320-5.jpg" media="(min-width: 320px) and (max-width: 414px)">
                       <source srcset="img/events-647-5.jpg" media="(max-width: 647px)">
                       <source srcset="img/events-768-5.jpg" media="(max-width: 768px)">
                       <source srcset="img/events-1024-5.jpg" media="(max-width: 1024px)">
                       <img src="img/events-1920-5.jpg" alt="Разноцветные ленты">
                     </picture>
                     <div class="event-article__text">
-                      <div class="event-article__info">
-                        <div>Третьяковка на Крымском валу</div>с <time datetime="2022-03-30">30 марта</time> по <time
-                          datetime="2022-04-30">30 апреля</time>
-                      </div>
+                      <span class="event-article__info">
+                        <span>Третьяковка на Крымском валу</span>
+                        <br>с <time datetime="2022-03-30">30 марта</time> по <time datetime="2022-04-30">30
+                          апреля</time>
+                      </span>
                       <h3 class="event-article__title">
                         XXIV Международная биеннале молодого искусства
                       </h3>
@@ -1224,8 +1228,8 @@
                       </a>
                     </div>
                   </article>
-                </div>
-              </div>
+                </li>
+              </ul>
               <div class="events__swiper-pagination swiper-pagination"></div>
             </div>
           </div>
@@ -1293,73 +1297,88 @@
                 <div class="projects__item swiper-slide">
                   <a class="projects__item-link" href="#">
                     <div class="projects__item-link-box">
-                      <img class="projects__item-link-box-img-hover" alt="" aria-hidden="true">
-                      <img alt="Freeland Foundation" class="projects__item-link-box-img">
+                      <img class="projects__item-link-box-img-hover" src="../img/projects-1920-1-hover.png" alt=""
+                        aria-hidden="true">
+                      <img class="projects__item-link-box-img" src="../img/projects-1920-1.png"
+                        alt="Freeland Foundation">
                     </div>
                   </a>
                 </div>
                 <div class="projects__item swiper-slide">
                   <a class="projects__item-link" href="#">
                     <div class="projects__item-link-box">
-                      <img class="projects__item-link-box-img-hover" alt="" aria-hidden="true">
-                      <img alt="Institute for Contemporary Art" class="projects__item-link-box-img">
+                      <img class="projects__item-link-box-img-hover" src="../img/projects-1920-2-hover.png" alt=""
+                        aria-hidden="true">
+                      <img class="projects__item-link-box-img" src="../img/projects-1920-2.png"
+                        alt="Institute for Contemporary Art">
                     </div>
                   </a>
                 </div>
                 <div class="projects__item swiper-slide">
                   <a class="projects__item-link" href="#">
                     <div class="projects__item-link-box">
-                      <img class="projects__item-link-box-img-hover" alt="" aria-hidden="true">
-                      <img alt="Workhouse Arts Center" class="projects__item-link-box-img">
+                      <img class="projects__item-link-box-img-hover" src="../img/projects-1920-3-hover.png" alt=""
+                        aria-hidden="true">
+                      <img class="projects__item-link-box-img" src="../img/projects-1920-3.png"
+                        alt="Workhouse Arts Center">
                     </div>
                   </a>
                 </div>
                 <div class="projects__item swiper-slide">
                   <a class="projects__item-link" href="#">
                     <div class="projects__item-link-box">
-                      <img class="projects__item-link-box-img-hover" alt="" aria-hidden="true">
-                      <img alt="1849 Wine Company" class="projects__item-link-box-img">
+                      <img class="projects__item-link-box-img-hover" src="../img/projects-1920-4-hover.png" alt=""
+                        aria-hidden="true">
+                      <img class="projects__item-link-box-img" src="../img/projects-1920-4.png" alt="1849 Wine Company">
                     </div>
                   </a>
                 </div>
                 <div class="projects__item swiper-slide">
                   <a class="projects__item-link" href="#">
                     <div class="projects__item-link-box">
-                      <img class="projects__item-link-box-img-hover" alt="" aria-hidden="true">
-                      <img alt="Hiscox" class="projects__item-link-box-img">
+                      <img class="projects__item-link-box-img-hover" src="../img/projects-1920-5-hover.png" alt=""
+                        aria-hidden="true">
+                      <img class="projects__item-link-box-img" src="../img/projects-1920-5.png" alt="Hiscox">
                     </div>
                   </a>
                 </div>
                 <div class="projects__item swiper-slide">
                   <a class="projects__item-link" href="#">
                     <div class="projects__item-link-box">
-                      <img class="projects__item-link-box-img-hover" alt="" aria-hidden="true">
-                      <img alt="Camden Arts Centre" class="projects__item-link-box-img">
+                      <img class="projects__item-link-box-img-hover" src="../img/projects-1920-6-hover.png" alt=""
+                        aria-hidden="true">
+                      <img class="projects__item-link-box-img" src="../img/projects-1920-6.png"
+                        alt="Camden Arts Centre">
                     </div>
                   </a>
                 </div>
                 <div class="projects__item swiper-slide">
                   <a class="projects__item-link" href="#">
                     <div class="projects__item-link-box">
-                      <img class="projects__item-link-box-img-hover" alt="" aria-hidden="true">
-                      <img alt="Stassen Premium Belgian Cider" class="projects__item-link-box-img">
+                      <img class="projects__item-link-box-img-hover" src="../img/projects-1920-7-hover.png" alt=""
+                        aria-hidden="true">
+                      <img class="projects__item-link-box-img" src="../img/projects-1920-7.png"
+                        alt="Stassen Premium Belgian Cider">
                     </div>
                   </a>
                 </div>
                 <div class="projects__item swiper-slide">
                   <a class="projects__item-link" href="#">
                     <div class="projects__item-link-box">
-                      <img class="projects__item-link-box-img-hover" alt="" aria-hidden="true">
-                      <img alt="Watts Gallery – Artists' Village" class="projects__item-link-box-img">
+                      <img class="projects__item-link-box-img-hover" src="../img/projects-1920-8-hover.png" alt=""
+                        aria-hidden="true">
+                      <img class="projects__item-link-box-img" src="../img/projects-1920-8.png"
+                        alt="Watts Gallery – Artists' Village">
                     </div>
                   </a>
                 </div>
                 <div class="projects__item swiper-slide">
                   <a class="projects__item-link" href="#">
                     <div class="projects__item-link-box">
-                      <img class="projects__item-link-box-img-hover" alt="" aria-hidden="true">
-                      <img alt="ESAD — Valenciennes Higher School of Art and Design"
-                        class="projects__item-link-box-img">
+                      <img class="projects__item-link-box-img-hover" src="../img/projects-1920-9-hover.png" alt=""
+                        aria-hidden="true">
+                      <img class="projects__item-link-box-img" src="../img/projects-1920-9.png"
+                        alt="ESAD — Valenciennes Higher School of Art and Design">
                     </div>
                   </a>
                 </div>
@@ -1392,18 +1411,18 @@
           <form class="contacts__form" action="#" method="POST">
             <div class="contacts__form-input-wrapper">
               <input class="contacts__form-name contacts__form-input" name="name" type="text" placeholder="Имя*"
-                aria-invalid="false" required="">
+                aria-invalid="false" required>
             </div>
             <div class="contacts__form-input-wrapper">
               <input id="contacts__form-tel" class="contacts__form-tel contacts__form-input" name="tel" type="tel"
-                placeholder="Телефон*" aria-invalid="false" required="">
+                placeholder="Телефон*" aria-invalid="false" required>
             </div>
             <button class="contacts__form-btn" type="submit">
               Заказать <span>обратный звонок</span>
             </button>
           </form>
-          <address class="contacts__address">
-            <div class="contacts__address-text">Связаться в&nbsp;один клик</div>
+          <div class="contacts__address">
+            <span class="contacts__address-text">Связаться в&nbsp;один клик</span>
             <ul class="contacts__address-list">
               <li class="contacts__address-list-item">
                 <a href="https://t.me/" class="contacts__address-link contacts__telegram" target="_blank">
@@ -1432,7 +1451,7 @@
                 </a>
               </li>
             </ul>
-          </address>
+          </div>
         </div>
       </div>
       <div id="map">
@@ -1440,8 +1459,8 @@
     </section>
   </main>
   <footer>
-    <div class="container">
-      <div class="footer footer-wrapper">
+    <div class="footer footer-wrapper">
+      <div class="container">
         <div class="footer__logo">
           <picture>
             <source srcset="img/logo-small.png" type="image/png" media="(min-width: 320px) and (max-width: 414px)">

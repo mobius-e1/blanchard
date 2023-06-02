@@ -16,7 +16,31 @@
       slideLabelMessage: "Слайд {{index}} из {{slidesLength}}",
       slideRole: "none",
     },
+
     breakpoints: {
+
+      2560: {
+        slidesPerView: 4,
+        slidesPerGroup: 4,
+        spaceBetween: 30,
+        allowTouchMove: false,
+      },
+
+
+      2560: {
+        slidesPerView: 4,
+        slidesPerGroup: 4,
+        spaceBetween: 30,
+        allowTouchMove: false,
+      },
+
+      1092: {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
+        spaceBetween: 30,
+        allowTouchMove: false,
+      },
+
       1024: {
         slidesPerView: 3,
         slidesPerGroup: 3,

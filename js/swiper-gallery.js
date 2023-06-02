@@ -40,6 +40,13 @@ document.addEventListener('DOMContentLoaded', function () {
       slideRole: "none",
     },
     breakpoints: {
+      2560: {
+        slidesPerView: 4,
+        slidesPerGroup: 4,
+        spaceBetween: 50,
+        allowTouchMove: false,
+      },
+
       1920: {
         slidesPerView: 3,
         slidesPerGroup: 3,

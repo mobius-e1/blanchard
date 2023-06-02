@@ -1984,36 +1984,72 @@ p.gallery__modal-wrapper-text-descr {
   border-color: var(--amethyst);
 }
 
+.projects__item:nth-child(1) .projects__item-link-box-img {
+  content: url("../img/projects-1920-1.png");
+}
+
 .projects__item:nth-child(1) .projects__item-link-box-img-hover {
   content: url("../img/projects-color-1920-1.png");
+}
+
+.projects__item:nth-child(2) .projects__item-link-box-img {
+  content: url("../img/projects-1920-2.png");
 }
 
 .projects__item:nth-child(2) .projects__item-link-box-img-hover {
   content: url("../img/projects-color-1920-2.png");
 }
 
+.projects__item:nth-child(3) .projects__item-link-box-img {
+  content: url("../img/projects-1920-3.png");
+}
+
 .projects__item:nth-child(3) .projects__item-link-box-img-hover {
   content: url("../img/projects-color-1920-3.png");
+}
+
+.projects__item:nth-child(4) .projects__item-link-box-img {
+  content: url("../img/projects-1920-4.png");
 }
 
 .projects__item:nth-child(4) .projects__item-link-box-img-hover {
   content: url("../img/projects-color-1920-4.png");
 }
 
+.projects__item:nth-child(5) .projects__item-link-box-img {
+  content: url("../img/projects-1920-5.png");
+}
+
 .projects__item:nth-child(5) .projects__item-link-box-img-hover {
   content: url("../img/projects-color-1920-5.png");
+}
+
+.projects__item:nth-child(6) .projects__item-link-box-img {
+  content: url("../img/projects-1920-6.png");
 }
 
 .projects__item:nth-child(6) .projects__item-link-box-img-hover {
   content: url("../img/projects-color-1920-6.png");
 }
 
+.projects__item:nth-child(7) .projects__item-link-box-img {
+  content: url("../img/projects-1920-7.png");
+}
+
 .projects__item:nth-child(7) .projects__item-link-box-img-hover {
   content: url("../img/projects-color-1920-7.png");
 }
 
+.projects__item:nth-child(8) .projects__item-link-box-img {
+  content: url("../img/projects-1920-8.png");
+}
+
 .projects__item:nth-child(8) .projects__item-link-box-img-hover {
   content: url("../img/projects-color-1920-8.png");
+}
+
+.projects__item:nth-child(9) .projects__item-link-box-img {
+  content: url("../img/projects-1920-9.png");
 }
 
 .projects__item:nth-child(9) .projects__item-link-box-img-hover {

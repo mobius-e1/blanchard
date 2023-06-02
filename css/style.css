@@ -1206,8 +1206,6 @@ p.gallery__modal-wrapper-text-descr {
   background-color: transparent;
 }
 
-
-
 .choices[data-type*="select-one"].is-open::after {
   transition: transform 0.3s ease-in-out;
   transform: rotate(180deg);

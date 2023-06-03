@@ -114,7 +114,7 @@ body {
 
 .container {
   min-width: 320px;
-  max-width: 100%;
+  max-width: 1920px;
   margin-right: auto;
   margin-left: auto;
   padding-right: var(--indent);
@@ -2393,7 +2393,7 @@ p.gallery__modal-wrapper-text-descr {
   filter: grayscale(1);
 }
 
-.footer {
+footer {
   background-color: var(--black);
 }
 
@@ -2402,8 +2402,6 @@ p.gallery__modal-wrapper-text-descr {
   justify-content: space-between;
   align-items: center;
   height: 140px;
-  padding-right: var(--indent);
-  padding-left: var(--indent);
 }
 
 .footer__logo {

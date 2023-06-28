@@ -1,4 +1,3 @@
-//  swiper-projects
 const projectsSwiper = new Swiper('.projects__swiper', {
     speed: 400,
     navigation: {
@@ -13,23 +12,24 @@ const projectsSwiper = new Swiper('.projects__swiper', {
     },
   breakpoints: {
 
-
-    2560: {
-      slidesPerView: 3,
-      slidesPerGroup: 3,
-      spaceBetween: 50,
-      allowTouchMove: false,
-    },
-
     1920: {
       slidesPerView: 3,
       slidesPerGroup: 3,
       spaceBetween: 50,
       allowTouchMove: false,
     },
+
+
+    1280: {
+      slidesPerView: 3,
+      slidesPerGroup: 3,
+      spaceBetween: 50,
+      allowTouchMove: false,
+    },
+
       1024: {
-        slidesPerView: 3,
-        slidesPerGroup: 3,
+        slidesPerView: 2,
+        slidesPerGroup: 2,
         spaceBetween: 50,
         allowTouchMove: false,
       },

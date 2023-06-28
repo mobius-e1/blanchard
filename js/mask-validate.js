@@ -1,6 +1,6 @@
-  var tel = document.querySelector('input[type="tel"]');
+  let tel = document.querySelector('input[type="tel"]');
 
-  var telMask = new Inputmask('+7 (999) 999-99-99');
+  let telMask = new Inputmask('+7 (999) 999-99-99');
   telMask.mask(tel);
 
   const validator = new JustValidate('.contacts__form', {
@@ -19,7 +19,7 @@
       {
         rule: 'minLength',
         value: 3,
-        errorMessage: 'Имя должно состоять минимум из трёх букв',
+        errorMessage: 'Имя слишком короткое',
       },
       {
         validator: (value) => {

@@ -1,13 +1,13 @@
 ymaps.ready(init);
 
 function init() {
-    var myMap = new ymaps.Map("map", {
+    let myMap = new ymaps.Map("map", {
         center: [55.758463, 37.601079],
         zoom: 14,
         controls: []
     });
 
-    var myGeoObjects = [];
+    let myGeoObjects = [];
 
     myGeoObjects = new ymaps.Placemark([55.758463, 37.601079], {
         balloonContentBody: 'Художественная галерея Blanchard<br>Шоурум №4<br>Леонтьевский переулок, дом 5/1<br>',
@@ -19,7 +19,7 @@ function init() {
         hideIconOnBalloonOpen: false,
     });
 
-    var clusterer = new ymaps.Clusterer({
+    let clusterer = new ymaps.Clusterer({
         clusterDisableClickZoom: false
     });
 

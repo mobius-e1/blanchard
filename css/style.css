@@ -2253,14 +2253,15 @@ p.gallery__modal-wrapper-text-descr {
 }
 
 .contacts__form-btn {
-  min-width: 329px;
-  max-width: 47.5%;
+  flex-grow: 3;
+  min-width: 275px;
+  max-width: 48.5%;
   padding: 10.5px;
   border: 2px solid var(--amethyst);
   border-radius: 100px;
   color: var(--amethyst);
   font-weight: 700;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 25px;
   text-align: center;
   vertical-align: middle;
